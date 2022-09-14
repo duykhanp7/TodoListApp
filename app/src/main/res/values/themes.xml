@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TodoListApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/top_tool_bar_color</item>
+    </style>
+
+
+    <style name="customThemeToolBar" parent="Widget.MaterialComponents.Toolbar">
+
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/roboto_regular</item>
+
+    </style>
+
+    <style name="customBottomSheetDialogBackground" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/backgroundBottomSheetTransparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="backgroundBottomSheetTransparent" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="background">@android:color/transparent</item>
+    </style>
+</resources>
